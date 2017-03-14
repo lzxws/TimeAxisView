@@ -10,7 +10,7 @@ A simple view for regular time running include taking off and landing show.
       <version>1.0.1</version> 
     </dependency>
 ![](https://github.com/lzxws/TimeAxisView/blob/master/app/doc/movie.gif)
-### usage
+### Usage
 ```
 <HorizontalScrollView
         android:layout_width="match_parent"
