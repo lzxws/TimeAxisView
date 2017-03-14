@@ -35,7 +35,7 @@ A simple view for regular time running include taking off and landing show.
         </LinearLayout>
     </HorizontalScrollView>
 ```
-  you can use more attributes to make your view colorful:
+  The default color of apostrophe, circle and img_i is gray, and you can use more attributes to make your view colorful as follows:
   ```
   color_valid_period
   color_invalid_period
