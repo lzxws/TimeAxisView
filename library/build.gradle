@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 101
+        versionName "1.0.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+}
+
+//unlock these codes when need to upload library to jcenter
+/*publish {
+    userOrg = 'lizhixin'//bintray username
+    groupId = 'com.zxlee.station'//
+    artifactId = 'TimeAxisView'//project name
+    publishVersion = '1.0.1'
+    desc = 'A simple module for regular time running include taking off and landing show.'
+    website = 'https://github.com/lzxws/TimeAxisView'
+}*/

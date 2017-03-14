@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeAxisView">
+        <attr name="color_valid_period" format="color" />
+        <attr name="color_invalid_period" format="color" />
+        <attr name="color_circle" format="color" />
+        <attr name="color_time" format="color" />
+        <attr name="circle_radius" format="dimension" />
+        <attr name="text_time_size" format="dimension" />
+        <attr name="img_ready" format="reference" />
+        <attr name="img_finish" format="reference" />
+        <attr name="img_up" format="reference" />
+        <attr name="img_down" format="reference"/>
+        <attr name="img_forward" format="reference" />
+        <attr name="img_i" format="reference" />
+    </declare-styleable>
+</resources>
